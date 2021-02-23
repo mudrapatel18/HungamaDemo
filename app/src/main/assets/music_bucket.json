@@ -1,0 +1,380 @@
+{
+	"code": 200,
+	"message": "Success",
+	"data": [
+		{
+			"id": 101,
+			"title": "My Favorites and Downloads",
+			"subtitle": "",
+			"showmore": true,
+			"type": 12,
+			"contents": [{
+				"id": 10101,
+				"title": "D/F Playlist",
+				"subtitle": "User name",
+				"image": "https://google.com"
+			}, {
+				"id": 10102,
+				"title": "D/F Album",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10103,
+				"title": "Most Played D/F",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10104,
+				"title": "D/F Podcast",
+				"subtitle": "User Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10105,
+				"title": "Favorite Radio",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10106,
+				"title": "Favorite Artist",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10107,
+				"title": "Most Played D/F",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 102,
+			"title": "Recommended For You",
+			"subtitle": "",
+			"showmore": true,
+			"type": 11,
+			"contents": [{
+				"id": 10201,
+				"title": "Clickable Playlist",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10202,
+				"title": "Playlist/Album",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10203,
+				"title": "Playlist/Album",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10204,
+				"title": "Party",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 103,
+			"title": "Morning Radios",
+			"subtitle": "",
+			"showmore": true,
+			"type": 11,
+			"contents": [{
+				"id": 10301,
+				"title": "Radio",
+				"subtitle": "Best of India Pop",
+				"image": "https://google.com"
+			}, {
+				"id": 10302,
+				"title": "Radio",
+				"subtitle": "Best of Bollywood",
+				"image": "https://google.com"
+			}, {
+				"id": 10303,
+				"title": "Radio",
+				"subtitle": "Hot New Bollywood",
+				"image": "https://google.com"
+			}, {
+				"id": 10304,
+				"title": "Radio",
+				"subtitle": "Hot New International",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 104,
+			"title": "Trending Today",
+			"subtitle": "",
+			"showmore": true,
+			"type": 12,
+			"contents": [{
+				"id": 10401,
+				"title": "Playlist/Album",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10402,
+				"title": "Playlist/Album",
+				"subtitle": "Ramayan",
+				"image": "https://google.com"
+			}, {
+				"id": 10403,
+				"title": "Playlist/Album",
+				"subtitle": "Smile with Sadhguru",
+				"image": "https://google.com"
+			}, {
+				"id": 10404,
+				"title": "Playlist/Album",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10405,
+				"title": "Playlist/Album",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10406,
+				"title": "Playlist/Album",
+				"subtitle": "BongBaji",
+				"image": "https://google.com"
+			}, {
+				"id": 10407,
+				"title": "Playlist/Album",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10408,
+				"title": "Playlist/Album",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10409,
+				"title": "Playlist/Album",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10410,
+				"title": "Playlist/Album",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 105,
+			"title": "Moods and Genre",
+			"subtitle": "",
+			"showmore": true,
+			"type": 19,
+			"contents": [{
+				"id": 10501,
+				"title": "Relax",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10502,
+				"title": "Hip-Hop",
+				"subtitle": "Workout",
+				"image": "https://google.com"
+			}, {
+				"id": 10503,
+				"title": "Travel",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10504,
+				"title": "Romance",
+				"subtitle": "",
+				"image": "https://google.com"
+			},{
+				"id": 10505,
+				"title": "Focus",
+				"subtitle": "",
+				"image": "https://google.com"
+			},{
+				"id": 10506,
+				"title": "EDM",
+				"subtitle": "",
+				"image": "https://google.com"
+			},{
+				"id": 10507,
+				"title": "Workout",
+				"subtitle": "",
+				"image": "https://google.com"
+			},{
+				"id": 10508,
+				"title": "Energy Boosters",
+				"subtitle": "",
+				"image": "https://google.com"
+			},{
+				"id": 10509,
+				"title": "2000s",
+				"subtitle": "",
+				"image": "https://google.com"
+			},{
+				"id": 10510,
+				"title": "Rock",
+				"subtitle": "",
+				"image": "https://google.com"
+			},{
+				"id": 10511,
+				"title": "Pop",
+				"subtitle": "",
+				"image": "https://google.com"
+			},
+				{
+				"id": 10512,
+				"title": "Feel Good",
+				"subtitle": "",
+				"image": "https://google.com"
+			}
+			]
+		},
+		{
+			"id": 106,
+			"title": "Similar to (User's fav Artist)",
+			"subtitle": "",
+			"showmore": true,
+			"type": 16,
+			"contents": [{
+				"id": 20101,
+				"title": "Jubin Nautiyal",
+				"subtitle": "10M Followers",
+				"image": "https://google.com"
+			}, {
+				"id": 20102,
+				"title": "Arjit Singh",
+				"subtitle": "11M Followers",
+				"image": "https://google.com"
+			}, {
+				"id": 20103,
+				"title": "Neha Kakar",
+				"subtitle": "12M Followers",
+				"image": "https://google.com"
+			}, {
+				"id": 20104,
+				"title": "Armaam Malik",
+				"subtitle": "13M Followers",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 107,
+			"title": "Podcast (Fav Category)",
+			"subtitle": "",
+			"showmore": true,
+			"type": 11,
+			"contents": [{
+				"id": 10701,
+				"title": "Tazza Maal",
+				"subtitle": "Jubin Nautiyal",
+				"image": "https://google.com"
+			}, {
+				"id": 10702,
+				"title": "Happy Hits",
+				"subtitle": "Arjit Singh",
+				"image": "https://google.com"
+			}, {
+				"id": 10703,
+				"title": "Romance Remade",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			}, {
+				"id": 10704,
+				"title": "Just the weekend",
+				"subtitle": "Armaan Malik",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 108,
+			"title": "Playlist (Fav Category)",
+			"subtitle": "",
+			"showmore": true,
+			"type": 11,
+			"contents": [{
+				"id": 10701,
+				"title": "Tazza Maal",
+				"subtitle": "Jubin Nautiyal",
+				"image": "https://google.com"
+			}, {
+				"id": 10702,
+				"title": "Happy Hits",
+				"subtitle": "Arjit Singh",
+				"image": "https://google.com"
+			}, {
+				"id": 10703,
+				"title": "Romance Remade",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			}, {
+				"id": 10704,
+				"title": "Just the weekend",
+				"subtitle": "Armaan Malik",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 109,
+			"title": "Songs Picked for You",
+			"subtitle": "",
+			"showmore": true,
+			"type": 15,
+			"contents": [{
+				"id": 10901,
+				"title": "Madhubala",
+				"subtitle": "Amit Trivedi",
+				"image": "https://google.com"
+			}, {
+				"id": 10902,
+				"title": "Ajnabi",
+				"subtitle": "Amit Trivedi",
+				"image": "https://google.com"
+			}, {
+				"id": 10903,
+				"title": "Chahal Gaya Chhalaa",
+				"subtitle": "Sukhwinder Singh",
+				"image": "https://google.com"
+			}, {
+				"id": 10904,
+				"title": "Matlabi Yariyan",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			},{
+				"id": 10905,
+				"title": "Matlabi Yariyan 2",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 110,
+			"title": "Best Music Videos",
+			"subtitle": "",
+			"showmore": true,
+			"type": 14,
+			"contents": [{
+					"id": 20201,
+					"title": "Nayan",
+					"subtitle": "101k views",
+					"image": "https://google.com"
+				},
+				{
+					"id": 20202,
+					"title": "Mushkil Badi",
+					"subtitle": "111k views",
+					"image": "https://google.com"
+				}, {
+					"id": 20203,
+					"title": "Woh Chaand Ka..",
+					"subtitle": "131k views",
+					"image": "https://google.com"
+				}, {
+					"id": 20204,
+					"title": "Waada Hai",
+					"subtitle": "101k views",
+					"image": "https://google.com"
+				}
+			]
+		}
+	]
+}

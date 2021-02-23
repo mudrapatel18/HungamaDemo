@@ -1,0 +1,163 @@
+{
+	"code": 200,
+	"message": "Success",
+	"data": [
+		{
+			"id": 101,
+			"title": "Top 40",
+			"subtitle": "",
+			"showmore": true,
+			"type": 12,
+			"contents": [{
+				"id": 10101,
+				"title": "Bollywood Top 40",
+				"subtitle": "User name",
+				"image": "https://google.com"
+			}, {
+				"id": 10102,
+				"title": "US Top 40",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10103,
+				"title": "Hindi 90s Top 40",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10104,
+				"title": "Rock Top 40",
+				"subtitle": "User Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10105,
+				"title": "Punjabi Top 40",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10106,
+				"title": "Gujarati Top 40",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10107,
+				"title": "Romantic Top 40",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 102,
+			"title": "Top Podcasts",
+			"subtitle": "",
+			"showmore": false,
+			"type": 11,
+			"contents": [{
+				"id": 10201,
+				"title": "Clickable Podcast",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10202,
+				"title": "Podcast 2020",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10203,
+				"title": "Top 50",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}, {
+				"id": 10204,
+				"title": "Top 50 Hindi",
+				"subtitle": "Artist Name",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 103,
+			"title": "Most Viewed Music Videos",
+			"subtitle": "",
+			"showmore": true,
+			"type": 14,
+			"contents": [{
+				"id": 10301,
+				"title": "Music Video",
+				"subtitle": "Best of India Pop",
+				"image": "https://google.com"
+			}, {
+				"id": 10302,
+				"title": "Music video",
+				"subtitle": "Best of Bollywood",
+				"image": "https://google.com"
+			}, {
+				"id": 10303,
+				"title": "Music Video",
+				"subtitle": "Hot New Bollywood",
+				"image": "https://google.com"
+			}, {
+				"id": 10304,
+				"title": "Music Video",
+				"subtitle": "Hot New International",
+				"image": "https://google.com"
+			}]
+		},{
+			"id": 104,
+			"title": "Most Played Radios",
+			"subtitle": "",
+			"showmore": true,
+			"type": 11,
+			"contents": [{
+				"id": 10301,
+				"title": "Radio",
+				"subtitle": "Best of India Pop",
+				"image": "https://google.com"
+			}, {
+				"id": 10302,
+				"title": "Radio",
+				"subtitle": "Best of Bollywood",
+				"image": "https://google.com"
+			}, {
+				"id": 10303,
+				"title": "Radio",
+				"subtitle": "Hot New Bollywood",
+				"image": "https://google.com"
+			}, {
+				"id": 10304,
+				"title": "Radio",
+				"subtitle": "Hot New International",
+				"image": "https://google.com"
+			}]
+		},
+
+		{
+			"id": 105,
+			"title": "Most Viewed Live Performance",
+			"subtitle": "",
+			"showmore": true,
+			"type": 14,
+			"contents": [{
+					"id": 20201,
+					"title": "Nayan",
+					"subtitle": "101k views",
+					"image": "https://google.com"
+				},
+				{
+					"id": 20202,
+					"title": "Mushkil Badi",
+					"subtitle": "111k views",
+					"image": "https://google.com"
+				}, {
+					"id": 20203,
+					"title": "Woh Chaand Ka..",
+					"subtitle": "131k views",
+					"image": "https://google.com"
+				}, {
+					"id": 20204,
+					"title": "Waada Hai",
+					"subtitle": "101k views",
+					"image": "https://google.com"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="discover">Discover</string>
+    <string name="music">Music</string>
+
+
+    <string name="doppelganger_image_path">doppelgangers/%d.jpg</string>
+    <string name="image_loading_error">Problem in loading image</string>
+    <string name="title">Title</string>
+    <string name="video">Video</string>
+    <string name="news">News</string>
+    <string name="library">Library</string>
+
+    <string-array name="doppelganger_names">
+        <item>Doguel Jackson</item>
+        <item>Llama Lautner</item>
+        <item>Doggison Ford</item>
+        <item>Dogard Barkson</item>
+        <item>Charlie Catlin</item>
+        <item>Frogonna</item>
+    </string-array>
+</resources>

@@ -1,0 +1,494 @@
+{
+	"code": 200,
+	"message": "Success",
+	"data": [
+		{
+			"id": 101,
+			"title": "Good Morning Hungama User",
+			"subtitle": "Pick from where you left",
+			"showmore": true,
+			"type": 9,
+			"contents": [{
+				"id": 10101,
+				"title": "My Playlist",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10102,
+				"title": "Previous Podcast",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10103,
+				"title": "TV Show",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10104,
+				"title": "Live",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10105,
+				"title": "Previous Album",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10106,
+				"title": "App Playlist",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10107,
+				"title": "Music Video",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10108,
+				"title": "Previous Content",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10109,
+				"title": "Top 40",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10110,
+				"title": "Movie",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10111,
+				"title": "Short Video",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10112,
+				"title": "Previous Content",
+				"subtitle": "",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 102,
+			"title": "Hungama Special",
+			"subtitle": "",
+			"showmore": false,
+			"type": 10,
+			"contents": [{
+				"id": 10201,
+				"title": "Garmi",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10202,
+				"title": "Best of 2020",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10203,
+				"title": "Retro",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10204,
+				"title": "Party",
+				"subtitle": "",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 103,
+			"title": "Morning Radios",
+			"subtitle": "",
+			"showmore": true,
+			"type": 11,
+			"contents": [{
+				"id": 10301,
+				"title": "Radio",
+				"subtitle": "Best of India Pop",
+				"image": "https://google.com"
+			}, {
+				"id": 10302,
+				"title": "Radio",
+				"subtitle": "Best of Bollywood",
+				"image": "https://google.com"
+			}, {
+				"id": 10303,
+				"title": "Radio",
+				"subtitle": "Hot New Bollywood",
+				"image": "https://google.com"
+			}, {
+				"id": 10304,
+				"title": "Radio",
+				"subtitle": "Hot New International",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 104,
+			"title": "Podcast",
+			"subtitle": "",
+			"showmore": true,
+			"type": 12,
+			"contents": [{
+				"id": 10401,
+				"title": "Podcast",
+				"subtitle": "Howzzat",
+				"image": "https://google.com"
+			}, {
+				"id": 10402,
+				"title": "Podcast",
+				"subtitle": "Ramayan",
+				"image": "https://google.com"
+			}, {
+				"id": 10403,
+				"title": "Podcast",
+				"subtitle": "Smile with Sadhguru",
+				"image": "https://google.com"
+			}, {
+				"id": 10404,
+				"title": "Podcast",
+				"subtitle": "BongBaji",
+				"image": "https://google.com"
+			}, {
+				"id": 10405,
+				"title": "Podcast",
+				"subtitle": "BongBaji",
+				"image": "https://google.com"
+			}, {
+				"id": 10406,
+				"title": "Podcast",
+				"subtitle": "BongBaji",
+				"image": "https://google.com"
+			}, {
+				"id": 10407,
+				"title": "Podcast",
+				"subtitle": "BongBaji",
+				"image": "https://google.com"
+			}, {
+				"id": 10408,
+				"title": "Podcast",
+				"subtitle": "BongBaji",
+				"image": "https://google.com"
+			}, {
+				"id": 10409,
+				"title": "Podcast",
+				"subtitle": "BongBaji",
+				"image": "https://google.com"
+			}, {
+				"id": 10410,
+				"title": "Podcast",
+				"subtitle": "BongBaji",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 105,
+			"title": "",
+			"subtitle": "",
+			"showmore": false,
+			"type": 13,
+			"contents": [{
+				"id": 10501,
+				"title": "T-Series Collection",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10502,
+				"title": "Marvel Movies",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10503,
+				"title": "Romantic Collections",
+				"subtitle": "",
+				"image": "https://google.com"
+			}, {
+				"id": 10504,
+				"title": "Best of Bollywood 2020",
+				"subtitle": "",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 106,
+			"title": "Trending in Bollywood",
+			"subtitle": "",
+			"showmore": true,
+			"type": 12,
+			"contents": [{
+				"id": 10601,
+				"title": "Lut Gaye",
+				"subtitle": "Jubin Nautiyal",
+				"image": "https://google.com"
+			}, {
+				"id": 10602,
+				"title": "Ashleel",
+				"subtitle": "Arjit Singh",
+				"image": "https://google.com"
+			}, {
+				"id": 10603,
+				"title": "Main Jis Din Bhulaa Du",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			}, {
+				"id": 10604,
+				"title": "Sona Lagada",
+				"subtitle": "Armaan Malik",
+				"image": "https://google.com"
+			}, {
+				"id": 10605,
+				"title": "Lut Gaye",
+				"subtitle": "Jubin Nautiyal",
+				"image": "https://google.com"
+			}, {
+				"id": 10606,
+				"title": "Ashleel",
+				"subtitle": "Arjit Singh",
+				"image": "https://google.com"
+			}, {
+				"id": 10607,
+				"title": "Main Jis Din Bhulaa Du",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			}, {
+				"id": 10608,
+				"title": "Sona Lagada",
+				"subtitle": "Armaan Malik",
+				"image": "https://google.com"
+			}, {
+				"id": 10609,
+				"title": "Main Jis Din Bhulaa Du",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			}, {
+				"id": 10610,
+				"title": "Sona Lagada",
+				"subtitle": "Armaan Malik",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 107,
+			"title": "New Release",
+			"subtitle": "",
+			"showmore": true,
+			"type": 11,
+			"contents": [{
+				"id": 10701,
+				"title": "Tazza Maal",
+				"subtitle": "Jubin Nautiyal",
+				"image": "https://google.com"
+			}, {
+				"id": 10702,
+				"title": "Happy Hits",
+				"subtitle": "Arjit Singh",
+				"image": "https://google.com"
+			}, {
+				"id": 10703,
+				"title": "Romance Remade",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			}, {
+				"id": 10704,
+				"title": "Just the weekend",
+				"subtitle": "Armaan Malik",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 108,
+			"title": "Upcoming Live Performance",
+			"subtitle": "",
+			"showmore": false,
+			"type": 14,
+			"contents": [{
+				"id": 10801,
+				"title": "Jubin Nautiyal at Mumbai",
+				"subtitle": "Jubin Nautiyal",
+				"image": "https://google.com"
+			}, {
+				"id": 10802,
+				"title": "Arjit Singh at Kolkata",
+				"subtitle": "Arjit Singh",
+				"image": "https://google.com"
+			}, {
+				"id": 10803,
+				"title": "Neha Kakar at Delhi",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			}, {
+				"id": 10804,
+				"title": "Armaan Malik at Mumbai",
+				"subtitle": "Armaan Malik",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 109,
+			"title": "Songs Picked for You",
+			"subtitle": "",
+			"showmore": true,
+			"type": 15,
+			"contents": [{
+				"id": 10901,
+				"title": "Madhubala",
+				"subtitle": "Amit Trivedi",
+				"image": "https://google.com"
+			}, {
+				"id": 10902,
+				"title": "Ajnabi",
+				"subtitle": "Amit Trivedi",
+				"image": "https://google.com"
+			}, {
+				"id": 10903,
+				"title": "Chahal Gaya Chhalaa",
+				"subtitle": "Sukhwinder Singh",
+				"image": "https://google.com"
+			}, {
+				"id": 10904,
+				"title": "Matlabi Yariyan",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			},{
+				"id": 10905,
+				"title": "Matlabi Yariyan 2",
+				"subtitle": "Neha Kakar",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 201,
+			"title": "Similar to (User's fav Artist)",
+			"subtitle": "",
+			"showmore": true,
+			"type": 16,
+			"contents": [{
+				"id": 20101,
+				"title": "Jubin Nautiyal",
+				"subtitle": "10M Followers",
+				"image": "https://google.com"
+			}, {
+				"id": 20102,
+				"title": "Arjit Singh",
+				"subtitle": "11M Followers",
+				"image": "https://google.com"
+			}, {
+				"id": 20103,
+				"title": "Neha Kakar",
+				"subtitle": "12M Followers",
+				"image": "https://google.com"
+			}, {
+				"id": 20104,
+				"title": "Armaam Malik",
+				"subtitle": "13M Followers",
+				"image": "https://google.com"
+			}]
+		},
+		{
+			"id": 202,
+			"title": "New Short Videos",
+			"subtitle": "",
+			"showmore": true,
+			"type": 14,
+			"contents": [{
+					"id": 20201,
+					"title": "Nayan",
+					"subtitle": "101k views",
+					"image": "https://google.com"
+				},
+				{
+					"id": 20202,
+					"title": "Mushkil Badi",
+					"subtitle": "111k views",
+					"image": "https://google.com"
+				}, {
+					"id": 20203,
+					"title": "Woh Chaand Ka..",
+					"subtitle": "131k views",
+					"image": "https://google.com"
+				}, {
+					"id": 20204,
+					"title": "Waada Hai",
+					"subtitle": "101k views",
+					"image": "https://google.com"
+				}
+			]
+		},
+		{
+			"id": 203,
+			"title": "Most Popular Music Video",
+			"subtitle": "",
+			"showmore": true,
+			"type": 17,
+			"contents": [{
+					"id": 20301,
+					"title": "Nayan",
+					"subtitle": "Jubin",
+					"image": "https://google.com"
+				},
+				{
+					"id": 20302,
+					"title": "Mushkil Badi",
+					"subtitle": "Arjit",
+					"image": "https://google.com"
+				}, {
+					"id": 20303,
+					"title": "Woh Chaand Ka..",
+					"subtitle": "Neha",
+					"image": "https://google.com"
+				}, {
+					"id": 20304,
+					"title": "Waada Hai",
+					"subtitle": "Armaan",
+					"image": "https://google.com"
+				}
+			]
+		},
+		{
+			"id": 204,
+			"title": "Trending Movies",
+			"subtitle": "",
+			"showmore": true,
+			"type": 18,
+			"contents": [{
+				"id": 20401,
+				"title": "Race",
+				"subtitle": "2007 | hindi",
+				"image": "https://google.com"
+			}, {
+				"id": 20402,
+				"title": "Oblivion",
+				"subtitle": "2013 | English",
+				"image": "https://google.com"
+			}, {
+				"id": 20203,
+				"title": "The Mummy Returns",
+				"subtitle": "2001 | English",
+				"image": "https://google.com"
+			}, {
+				"id": 20204,
+				"title": "Joker",
+				"subtitle": "2019 | Hindi",
+				"image": "https://google.com"
+			}, {
+				"id": 20202,
+				"title": "Oblivion",
+				"subtitle": "2013 | English",
+				"image": "https://google.com"
+			}, {
+				"id": 20203,
+				"title": "The Mummy Returns",
+				"subtitle": "2001 | English",
+				"image": "https://google.com"
+			}, {
+				"id": 20204,
+				"title": "Joker",
+				"subtitle": "2019 | Hindi",
+				"image": "https://google.com"
+			}]
+		}
+	]
+}

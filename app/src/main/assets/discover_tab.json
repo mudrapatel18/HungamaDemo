@@ -1,0 +1,41 @@
+{
+  "code": 200,
+  "message": "Success",
+  "data": [{
+    "id": 1,
+    "title": "All"
+  },
+    {
+      "id": 2,
+      "title": "Top 40"
+    },
+    {
+      "id": 3,
+      "title": "Chill Winters"
+    },
+    {
+      "id": 4,
+      "title": "Podcasts"
+    },
+    {
+      "id": 5,
+      "title": "Morning Vibes"
+    },
+    {
+      "id": 6,
+      "title": "Movies"
+    },
+    {
+      "id": 7,
+      "title": "Short Videos"
+    },
+    {
+      "id": 8,
+      "title": "Radio"
+    },
+    {
+      "id": 9,
+      "title": "Live Performance"
+    }
+  ]
+}

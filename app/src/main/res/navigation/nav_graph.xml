@@ -1,0 +1,39 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/discoverFragment">
+
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.demo.myapplication.view.fragment.DiscoverFragment"
+        tools:layout="@layout/fragment_discover">
+
+        <action
+            android:id="@+id/next_action"
+            app:destination="@id/musicFragment">
+        </action>
+        <argument
+            android:name="fragmentName"
+            android:defaultValue="discover"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.demo.myapplication.view.fragment.MusicFragment"
+        tools:layout="@layout/fragment_music">
+        <argument
+            android:name="fragmentName"
+            android:defaultValue="music"
+            />
+
+        <!--        <action-->
+        <!--            android:id="@+id/next_action"-->
+        <!--            app:destination="@id/yogaListFragment">-->
+        <!--        </action>-->
+
+    </fragment>
+
+</navigation>

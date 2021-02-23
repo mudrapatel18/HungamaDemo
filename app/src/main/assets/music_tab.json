@@ -1,0 +1,33 @@
+{
+  "code": 200,
+  "message": "Success",
+  "data": [{
+    "id": 1,
+    "title": "All"
+  },
+    {
+      "id": 2,
+      "title": "Charts"
+    },
+    {
+      "id": 3,
+      "title": "Podcasts"
+    },
+    {
+      "id": 4,
+      "title": "Radio"
+    },
+    {
+      "id": 5,
+      "title": "Bhakti"
+    },
+    {
+      "id": 6,
+      "title": "Hindi"
+    },
+    {
+      "id": 7,
+      "title": "Music Video"
+    }
+  ]
+}

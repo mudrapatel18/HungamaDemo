@@ -1,0 +1,53 @@
+{
+  "code": 200,
+  "message": "Success",
+  "data": [{
+    "id": 1,
+    "title": "Real SRK",
+    "img": "www.google.come"
+  },
+    {
+      "id": 2,
+      "title": "Ayushman K",
+      "img": "www.google.come"
+
+    },
+    {
+      "id": 3,
+      "title": "Honey Singh",
+      "img": "www.google.come"
+
+    },
+    {
+      "id": 4,
+      "title": "Badshah",
+      "img": "www.google.come"
+
+    },
+    {
+      "id": 5,
+      "title": "Neha Kakkar",
+      "img": "www.google.come"
+
+    },
+    {
+      "id": 6,
+      "title": "Sonu Nigam",
+      "img": "www.google.come"
+
+    },
+    {
+      "id": 7,
+      "title": "Rihanna",
+      "img": "www.google.come"
+
+    },
+
+    {
+      "id": 8,
+      "title": "Live Performance",
+      "img": "www.google.come"
+
+    }
+  ]
+}
