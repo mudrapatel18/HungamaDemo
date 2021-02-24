@@ -50,13 +50,11 @@ class DiscoverFragment : BaseFragment() {
         viewModel.getTabList(obj).observe(viewLifecycleOwner, Observer { list ->
 
             adapterViewPager.setTabList(list.size, list)
-
             // Connect TabLayout and ViewPager2 here
             TabLayoutMediator(tabLayout, viewPager2) { tab, position ->
                 //To get the first name of  tab
                 tab.text = list[position].title//.substringBefore(' ')
             }.attach()
-
 
         })
     }
@@ -73,7 +71,7 @@ class DiscoverFragment : BaseFragment() {
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            MusicFragment().apply {
+            DiscoverFragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

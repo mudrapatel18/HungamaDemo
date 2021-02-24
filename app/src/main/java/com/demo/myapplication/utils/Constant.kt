@@ -1,6 +1,7 @@
 package com.demo.myapplication.utils
 
 import android.content.Context
+import android.widget.Toast
 import java.io.IOException
 import java.nio.charset.Charset
 
@@ -23,6 +24,10 @@ class Constant {
                 return ""
             }
             return json
+        }
+
+        fun showShortToast(context: Context, message: String) {
+            Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
         }
 
         val DISCOVER_FRAGMENT: String  = "discoverFragment"
