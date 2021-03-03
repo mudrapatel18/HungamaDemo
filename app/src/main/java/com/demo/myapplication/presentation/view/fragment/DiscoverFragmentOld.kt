@@ -1,20 +1,19 @@
-package com.demo.myapplication.view.fragment
+package com.demo.myapplication.presentation.view.fragment
 
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.viewpager2.widget.ViewPager2
 import com.demo.myapplication.R
-import com.demo.myapplication.model.TabModel
+import com.demo.myapplication.domain.model.TabModel
 import com.demo.myapplication.utils.Constant
-import com.demo.myapplication.view.adapter.ViewerPagerAdapter
-import com.demo.myapplication.viewModel.DiscoverViewModel
+import com.demo.myapplication.presentation.view.adapter.ViewerPagerAdapter
+import com.demo.myapplication.presentation.viewModel.DiscoverViewModel
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import org.json.JSONObject
@@ -120,7 +119,7 @@ class DiscoverFragmentOld : Fragment() {
 
         val obj : JSONObject = JSONObject(Constant.loadJSONFromAsset(requireContext(), "discover_tab.json"))
 
-        viewModel.getTabList(obj).observe(viewLifecycleOwner, Observer { list ->
+        viewModel.tabListLiveDataClean.observe(viewLifecycleOwner, Observer { list ->
             Log.e("Result","Size"+list.size)
             tabModelList = list;
             adapter.setTabList(list.size, list)

@@ -1,4 +1,4 @@
-package com.demo.myapplication.view.adapter
+package com.demo.myapplication.presentation.view.adapter
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
@@ -6,10 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.demo.myapplication.R
-import com.demo.myapplication.model.StoryModel
+import com.demo.myapplication.domain.model.StoryModel
 /**
  * TODO: Replace the implementation with code for your data type.
  */

@@ -1,15 +1,11 @@
-package com.demo.myapplication.view.fragment
+package com.demo.myapplication.presentation.view.fragment
 
-import android.content.Context
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
-import android.opengl.Visibility
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -18,14 +14,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.demo.myapplication.R
 import com.demo.myapplication.utils.Constant
 import com.demo.myapplication.utils.Constant.Companion.loadJSONFromAsset
-import com.demo.myapplication.view.adapter.BucketRecyclerViewAdapter
-import com.demo.myapplication.view.adapter.StoryRecyclerViewAdapter
-import com.demo.myapplication.viewModel.DiscoverViewModel
-import com.demo.myapplication.viewModel.PagerViewModel
-import kotlinx.android.synthetic.main.fragment_view_pager.*
-import kotlinx.coroutines.launch
+import com.demo.myapplication.presentation.view.adapter.BucketRecyclerViewAdapter
+import com.demo.myapplication.presentation.view.adapter.StoryRecyclerViewAdapter
+import com.demo.myapplication.presentation.viewModel.PagerViewModel
 import org.json.JSONObject
-import java.io.IOException
 
 class ViewPagerFragment : Fragment() {
 
@@ -54,12 +46,13 @@ class ViewPagerFragment : Fragment() {
   private lateinit var recyclerView : RecyclerView
   private lateinit var recyclerViewBucket : RecyclerView
   var position : Int = 0;
-
+  lateinit var tabTitle : TextView
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                             savedInstanceState: Bundle?): View? {
     var view = inflater.inflate(R.layout.fragment_view_pager, container, false)
 
     viewDivider = view.findViewById(R.id.viewDivider)
+    tabTitle = view.findViewById(R.id.tab_title)
 
     recyclerView = view.findViewById<RecyclerView>(R.id.recyclerview_story)
     adapterStory = StoryRecyclerViewAdapter()
@@ -77,7 +70,7 @@ class ViewPagerFragment : Fragment() {
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
      position = requireArguments().getInt(ARG_POSITION)
     val title = requireArguments().getString(ARG_TITLE)
-    tab_title.text = title
+    tabTitle.text = title
 
   }
 

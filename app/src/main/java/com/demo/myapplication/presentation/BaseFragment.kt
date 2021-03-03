@@ -1,17 +1,14 @@
-package com.demo.myapplication
+package com.demo.myapplication.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import androidx.viewpager2.widget.ViewPager2
-import com.demo.myapplication.model.TabModel
-import com.demo.myapplication.utils.Constant
-import com.demo.myapplication.view.adapter.ViewerPagerAdapter
-import com.demo.myapplication.viewModel.DiscoverViewModel
+import com.demo.myapplication.R
+import com.demo.myapplication.domain.model.TabModel
+import com.demo.myapplication.presentation.view.adapter.ViewerPagerAdapter
 import com.google.android.material.tabs.TabLayout
 
 abstract class BaseFragment : Fragment() {

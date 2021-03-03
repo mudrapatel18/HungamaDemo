@@ -1,11 +1,10 @@
-package com.demo.myapplication.view.adapter
+package com.demo.myapplication.presentation.view.adapter
 
-import android.util.Log
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.demo.myapplication.model.TabModel
-import com.demo.myapplication.view.fragment.ViewPagerFragment
+import com.demo.myapplication.domain.model.TabModel
+import com.demo.myapplication.presentation.view.fragment.ViewPagerFragment
 
 
 class ViewerPagerAdapter(activity: FragmentActivity, var mNumOfTabs: Int, var tabTitleList: ArrayList<TabModel>, var fragmentName  : String) :

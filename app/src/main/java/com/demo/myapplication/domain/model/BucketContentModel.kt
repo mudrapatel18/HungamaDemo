@@ -1,4 +1,4 @@
-package com.demo.myapplication.model
+package com.demo.myapplication.domain.model
 
 class BucketContentModel
     (

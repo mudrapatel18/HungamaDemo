@@ -1,4 +1,4 @@
-package com.demo.myapplication.view
+package com.demo.myapplication.presentation.view
 
 import android.app.SearchManager
 import android.content.Context

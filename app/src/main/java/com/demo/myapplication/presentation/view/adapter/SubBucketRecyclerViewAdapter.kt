@@ -1,4 +1,4 @@
-package com.demo.myapplication.view.adapter
+package com.demo.myapplication.presentation.view.adapter
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.demo.myapplication.R
-import com.demo.myapplication.model.BucketContentModel
+import com.demo.myapplication.domain.model.BucketContentModel
 
 class SubBucketRecyclerViewAdapter(var type:Int
 ) : RecyclerView.Adapter<SubBucketRecyclerViewAdapter.ViewHolder>() {

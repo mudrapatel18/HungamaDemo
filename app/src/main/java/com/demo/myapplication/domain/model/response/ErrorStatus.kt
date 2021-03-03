@@ -1,4 +1,4 @@
-package  com.architecture.clean.domain.model.response
+package  com.demo.myapplication.domain.model.response
 
 /**
  * various error status to know what happened if something goes wrong with a repository call

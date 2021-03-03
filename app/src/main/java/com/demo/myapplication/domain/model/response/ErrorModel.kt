@@ -1,4 +1,5 @@
-package  com.architecture.clean.domain.model.response
+package  com.demo.myapplication.domain.model.response
+
 
 /**
  * Default error model that comes from server if something goes wrong with a repository call

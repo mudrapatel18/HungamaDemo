@@ -1,14 +1,12 @@
-package com.demo.myapplication.viewModel
+package com.demo.myapplication.presentation.viewModel
 
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.demo.myapplication.model.BucketContentModel
-import com.demo.myapplication.model.BucketModel
-import com.demo.myapplication.model.StoryModel
-import com.demo.myapplication.model.TabModel
+import com.demo.myapplication.domain.model.BucketContentModel
+import com.demo.myapplication.domain.model.BucketModel
+import com.demo.myapplication.domain.model.StoryModel
 import org.json.JSONObject
 
 

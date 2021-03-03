@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/discoverFragment"
-        android:name="com.demo.myapplication.view.fragment.DiscoverFragment"
+        android:name="com.demo.myapplication.presentation.view.fragment.DiscoverFragment"
         tools:layout="@layout/fragment_discover">
 
         <action
@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/musicFragment"
-        android:name="com.demo.myapplication.view.fragment.MusicFragment"
+        android:name="com.demo.myapplication.presentation.view.fragment.MusicFragment"
         tools:layout="@layout/fragment_music">
         <argument
             android:name="fragmentName"

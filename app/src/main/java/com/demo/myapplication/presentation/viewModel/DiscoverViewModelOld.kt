@@ -1,14 +1,18 @@
-package com.demo.myapplication.data.repository
+ package com.demo.myapplication.presentation.viewModel
 
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import com.demo.myapplication.domain.model.TabModel
 import org.json.JSONObject
 
-class AppService {
 
+class DiscoverViewModelOld(application: Application) : AndroidViewModel(application) {
+    private val tabListLiveData: MutableLiveData<ArrayList<TabModel>> = MutableLiveData<ArrayList<TabModel>>();
 
-    fun getTabList(jsonObject : JSONObject) : ArrayList<TabModel> {
-//        val tabListLiveData: MutableLiveData<ArrayList<TabModel>> = MutableLiveData<ArrayList<TabModel>>();
+    init{    }
+
+    fun getTabList(jsonObject : JSONObject) : MutableLiveData<ArrayList<TabModel>> {
         val isSuccess = jsonObject.getString("message")
         var tabModelList : ArrayList<TabModel> = ArrayList()
 
@@ -24,8 +28,9 @@ class AppService {
                 tabModelList.add(tabModel)
             }
         }
-//        tabListLiveData.value = tabModelList
+        tabListLiveData.value = tabModelList
 
-        return tabModelList
+        return tabListLiveData
     }
+
 }

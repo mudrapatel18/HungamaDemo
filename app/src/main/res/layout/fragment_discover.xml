@@ -5,7 +5,7 @@
     android:id="@+id/discoverFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.fragment.DiscoverFragment">
+    tools:context=".presentation.view.fragment.DiscoverFragment">
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabs"

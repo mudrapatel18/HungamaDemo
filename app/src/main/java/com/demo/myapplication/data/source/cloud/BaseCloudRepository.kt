@@ -1,7 +1,6 @@
-package com.architecture.clean.data.source.cloud
+ package com.demo.myapplication.data.source.cloud
 
-import com.architecture.clean.domain.model.FoodDto
-
-interface BaseCloudRepository {
-   suspend fun getHome(): FoodDto
-}
+//
+//interface BaseCloudRepository {
+//   suspend fun getHome(): FoodDto
+//}
